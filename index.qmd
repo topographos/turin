@@ -1,0 +1,168 @@
+---
+title: "Reassessing the 'great dispersal': Settlement patterns and ecology under later territorial empires in the Northern Fertile Crescent."
+author: "Michal Michalski, Dan Lawrence"
+institute: Durham University
+format:
+  revealjs:
+    pdf-separate-fragments: true
+    logo: figures/logo-dark.png
+    slide-number: c/t
+    css: ["style.scss"]
+    theme: simple
+editor: visual
+---
+
+## Structure
+
+-   Background
+-   Objectives
+-   Study Area
+-   Units of Analysis
+-   Methods
+-   Results
+-   Conclusion
+
+## Background
+
+## Objective
+
+The ultimate aim of my PhD research is to investigate emergence of *"landscape of dispersal"* across the region. In this presentation I will:
+
+1.  attempt to describe the **pattern** of change quantitatively using centralization indices.
+
+2.  explore potential of Ideal Free Distribution models to understand the **process.**
+
+## Chronology
+
+![](figures/chronology.png){fig-align="center"}
+
+## Study Area
+
+![Northern Mesopotamia](figures/study_area.png){fig-align="center"}
+
+## Unit of Analysis
+
+![Sequence of Snapshots: *Si* represents settlement system state at particular time *Ti.*](figures/units_of_analysis.png){fig-align="center"}
+
+## Methods: Settlement Patterns
+
+![](figures/method_framework.png){fig-align="center"}
+
+## Methods: Aoristic analysis
+
+![](figures/method_aoristic.png){fig-align="center"}
+
+## Methods: Rank-Size and Alfa Coefficent
+
+![](figures/method_zipf.png){fig-align="center"}
+
+## Methods: Centralization and Beta Coefficent
+
+![](figures/method_centralization.png){fig-align="center"}
+
+## Example: NJS at 2550 BCE
+
+::: columns
+::: {.column width="50%"}
+![](figures/njs/njs_histogram_2550BCE.png)
+:::
+
+::: {.column width="50%"}
+![](figures/njs/njs_ranksize_2550BCE.png)
+:::
+:::
+
+## Example: NJS at 900 BCE
+
+::: columns
+::: {.column width="50%"}
+![](figures/njs/njs_histogram_900BCE.png)
+:::
+
+::: {.column width="50%"}
+![](figures/njs/njs_ranksize_900BCE.png)
+:::
+:::
+
+## Example: NJS at 2550 BCE
+
+![](figures/njs/centr_plot_2550BCE.png)
+
+## Example: NJS at 900 BCE
+
+![](figures/njs/centrplot_900BCE.png)
+
+## Results: Aoristic Analysis
+
+![](figures/aoristic_count.png){fig-align="center"}
+
+## Results: Site Density
+
+![](figures/density.png){fig-align="center"}
+
+## Results: Density Cluster
+
+![](figures/density_cluster.png){fig-align="center"}
+
+## Results: A coefficient
+
+![](figures/alpha.png){fig-align="center"}
+
+## Results: A coefficient Cluster
+
+![](figures/alpha_cluster.png){fig-align="center"}
+
+## Results: Beta coefficient
+
+![](figures/beta.png){fig-align="center"}
+
+## Results: B coefficient
+
+![](figures/beta_cluster.png){fig-align="center"}
+
+## Methods: Settlement Ecology
+
+**Human Behavioral Ecology -- Ideal Distribution Models**
+
+• **Ideal Free Distribution** (IFD) -- makes assumption of unconstrained movement into habitats of highest suitability that will decline with rising population density.
+
+• **Ideal Free Distribution with Allee effect (IFDA)** -- incentivize cooperation and investments in landscape (e.g. irrigation) to increase habitats suitability but in time population pressure is leading to degradation and habitat depletion .
+
+• **Ideal Despotic Distribution (IDD)** -- the access to habitats of individuals is controlled by other settlers. **IDD negative** -- despots defended access to high ranked habitats forcing settlers to occupy habitats with lower rank. **IDD positive** - despots allow to occupy their high ranked habitats in return for share in harvest (e.g.serfdom dynamics)
+
+## Methods: IFD
+
+![](figures/method_ifd_free.png){fig-align="center"}
+
+## Methods: IFDA
+
+![](figures/method_ifd_allee.png){fig-align="center"}
+
+## Methods: IDD
+
+![](figures/method_ifd_despotic.png){fig-align="center"}
+
+## Methods: Suitability Index
+
+![\*Menze and Ur (2012) showed correlation between settlements volume / density and reiver size in Upper Khabur Basin.](figures/method_suitability.png){fig-align="center"}
+
+## Results: Model Prediction
+
+The first habitats settled will be the most suitable.
+
+![](figures/suitability_over_time.png){fig-align="center"}
+
+## Results: Model Prediction
+
+The first habitats settled will be the most suitable.
+
+![](figures/suitability_by_survey.png){fig-align="center"}
+
+## Results: Model Prediction
+
+The average suitability of a settlement pattern should decrease as sites increase in number.
+
+![](figures/lm_site_count.png){fig-align="center"}
+
+
+## Discussion
