@@ -24,6 +24,8 @@ editor: visual
 
 ## Background
 
+![](figures/dispersal.png){fig-align="center"}
+
 ## Objective
 
 The ultimate aim of my PhD research is to investigate emergence of *"landscape of dispersal"* across the region. In this presentation I will:
@@ -52,11 +54,11 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 ![](figures/method_aoristic.png){fig-align="center"}
 
-## Methods: Rank-Size and Alfa Coefficent
+## Methods: Rank-Size and A Coefficient
 
 ![](figures/method_zipf.png){fig-align="center"}
 
-## Methods: Centralization and Beta Coefficent
+## Methods: Centralization and B Coefficient
 
 ![](figures/method_centralization.png){fig-align="center"}
 
