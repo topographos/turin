@@ -26,13 +26,30 @@ editor: visual
 
 ![](figures/dispersal.png){fig-align="center"}
 
+## Background
+
+Explanatory frameworks proposed so far:
+
+-   shift from network to a territorial empire (Liverani, 1988)
+-   administrative restructuring and institutional colonisation (Wilkinson, 2000; T J Wilkinson et al., 2005)
+-   creation of a landscape of power (Morandi Bonacossi, 1996)
+-   *agricultural colonisation* (Parker, 2001)
+-   change in land ownership (Casana, 2007)
+-   *universalism* and population dynamics (Altaweel and Squitieri, 2018)
+
 ## Objective
 
-The ultimate aim of my PhD research is to investigate emergence of *"landscape of dispersal"* across the region. In this presentation I will:
+My PhD research aims to provide metrics and quantify the emergence of *"landscape of dispersal"* across the Northern Fertile Crescent.
 
-1.  attempt to describe the **pattern** of change quantitatively using centralization indices.
+I argue that timing, sequence and magnitude of the change is pertinent to correlate the transformation in landscape with empires.
 
-2.  explore potential of Ideal Free Distribution models to understand the **process.**
+ 
+
+In this presentation I will:
+
+-   present Exploratory Data Analysis of the settlement **pattern** deploying quantitative metrics of centralization.
+
+-   apply Ideal Free Distribution model to understand the **process** behind the settlement pattern.
 
 ## Chronology
 
@@ -40,13 +57,15 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 ## Study Area
 
-![Northern Mesopotamia](figures/study_area.png){fig-align="center"}
+East-West transect across Northern Mesopotamian plains.
+
+![Northern Mesopotamia (n = 396 sites)](figures/study_area.png){fig-align="center"}
 
 ## Unit of Analysis
 
 ![Sequence of Snapshots: *Si* represents settlement system state at particular time *Ti.*](figures/units_of_analysis.png){fig-align="center"}
 
-## Methods: Settlement Patterns
+## Methods: Settlement System
 
 ![](figures/method_framework.png){fig-align="center"}
 
@@ -56,7 +75,7 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 ## Methods: Rank-Size and A Coefficient
 
-![](figures/method_zipf.png){fig-align="center"}
+![](figures/method_a_coefficent.png){fig-align="center"}
 
 ## Methods: Centralization and B Coefficient
 
@@ -88,19 +107,15 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 ## Example: NJS at 2550 BCE
 
-![](figures/njs/centr_plot_2550BCE.png)
+![](figures/njs/njs_cntr_plot2550BCE.png)
 
 ## Example: NJS at 900 BCE
 
-![](figures/njs/centrplot_900BCE.png)
-
-## Results: Aoristic Analysis
-
-![](figures/aoristic_count.png){fig-align="center"}
+![](figures/njs/njs_cntr_plot900BCE.png)
 
 ## Results: Site Density
 
-![](figures/density.png){fig-align="center"}
+![](figures/site_density.png){fig-align="center"}
 
 ## Results: Density Cluster
 
@@ -108,7 +123,7 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 ## Results: A coefficient
 
-![](figures/alpha.png){fig-align="center"}
+![](figures/alpha.png){fig-align="center", height = "50%"}
 
 ## Results: A coefficient Cluster
 
@@ -116,7 +131,7 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 ## Results: Beta coefficient
 
-![](figures/beta.png){fig-align="center"}
+![\*Modifiable areal unit problem](figures/beta.png){fig-align="center"}
 
 ## Results: B coefficient
 
@@ -126,45 +141,112 @@ The ultimate aim of my PhD research is to investigate emergence of *"landscape o
 
 **Human Behavioral Ecology -- Ideal Distribution Models**
 
-• **Ideal Free Distribution** (IFD) -- makes assumption of unconstrained movement into habitats of highest suitability that will decline with rising population density.
+The fundamental premise of the model is that individuals seek to maximize suitability such as subsistence yields.
 
-• **Ideal Free Distribution with Allee effect (IFDA)** -- incentivize cooperation and investments in landscape (e.g. irrigation) to increase habitats suitability but in time population pressure is leading to degradation and habitat depletion .
+• Ideal Free Distribution (IFD)
 
-• **Ideal Despotic Distribution (IDD)** -- the access to habitats of individuals is controlled by other settlers. **IDD negative** -- despots defended access to high ranked habitats forcing settlers to occupy habitats with lower rank. **IDD positive** - despots allow to occupy their high ranked habitats in return for share in harvest (e.g.serfdom dynamics)
+• Ideal Free Distribution with Allee effect (IFDA)
+
+• Ideal Despotic Distribution (IDD)
+
+ 
+
+**Question:** Do the settlement patterns show properties predicted by the IFD model?
 
 ## Methods: IFD
 
 ![](figures/method_ifd_free.png){fig-align="center"}
 
+IFD makes assumption of unconstrained movement into habitats of highest suitability that will decline with rising population density.
+
 ## Methods: IFDA
 
 ![](figures/method_ifd_allee.png){fig-align="center"}
+
+IFDA incentivize cooperation and investments in landscape to increase habitats suitability but in time population pressure is leading to degradation and habitat depletion .
 
 ## Methods: IDD
 
 ![](figures/method_ifd_despotic.png){fig-align="center"}
 
-## Methods: Suitability Index
+The access to habitats of individuals is controlled by other settlers. **IDD negative** -- despots defended access to high ranked habitats forcing settlers to occupy habitats with lower rank. **IDD positive** - despots allow to occupy their high ranked habitats in return for share in harvest.
 
-![\*Menze and Ur (2012) showed correlation between settlements volume / density and reiver size in Upper Khabur Basin.](figures/method_suitability.png){fig-align="center"}
+## Suitability Index
 
-## Results: Model Prediction
+![\*Menze and Ur (2012) showed correlation between settlements volume / density and river size in Upper Khabur Basin.](figures/method_suitability.png){fig-align="center"}
 
-The first habitats settled will be the most suitable.
+## Model Predictions
 
-![](figures/suitability_over_time.png){fig-align="center"}
+IFD and IDD
 
-## Results: Model Prediction
+-   The first habitats settled will be the most suitable.
 
-The first habitats settled will be the most suitable.
+-   The most suitable habitats will be occupied longest.
 
-![](figures/suitability_by_survey.png){fig-align="center"}
+-   The average suitability of a settlement pattern should decrease as sites increase in number.
 
-## Results: Model Prediction
+IDD
 
-The average suitability of a settlement pattern should decrease as sites increase in number.
+-   The population density in IDD at the higher ranked habitats is lower than in the IFD (IDD vs IFD dynamics)
 
-![](figures/lm_site_count.png){fig-align="center"}
+## Results
 
+1.  The first habitats settled will be the most suitable.
 
-## Discussion
+![](figures/idf_suitability_over_time_50y.png){fig-align="center"}
+
+## Results
+
+2.  The most suitable habitats will be occupied longest.
+
+![](figures/idf_persistance.png){fig-align="center"}
+
+## Results
+
+3.  The average suitability of a settlement pattern should decrease as sites increase in number.
+
+![](figures/idf_suit_vs_site_number.png){fig-align="center"}
+
+## Results
+
+4.  The population density in IDD at the higher ranked habitats is lower than in the IFD (IDD vs IFD dynamics)
+
+![\* not fully tested, requires further work](figures/ifd_vs_idd.png){fig-align="center"}
+
+## Conclusions - same old
+
+-   settlements dispersion coincided with Middle Assyrian (1400BC) and Neo-Assyrian (900BC) expansions
+
+-   areas in proximity to Assyrian imperial core experience (NJS, THS) seen increase at higher rate comparing to more modest growth in western Khabur (TBS) and the eastern Navkūr plain (UZGAR)
+
+-   LCP area was dominated by site of Charchemish until population disperse in Hellenistic period (300BC)
+
+## Conclusions - same new
+
+-   results show a general conformity with IFD models
+
+-   settlement strategies seek to maximize agricultural input (as far as access to water is concerned)
+
+-   larger increase in settlement density accompanied by faster drop in suitability around 900 BC may IDD properties whereas more sustainable growth may indicate IFD distribution.
+
+## Further work
+
+-   to integrate more legacy archaeological surveys
+
+-   to evaluate centralization metrics
+
+-   model Allee effect by integrating hydraulic infrastructure
+
+-   integrate more ecological and social variables
+
+-   operationalize distinction between various IDM variants
+
+## Thank you
+
+ 
+
+Michal Michalski
+
+michal.m.michalski\@durham.ac.uk
+
+<https://github.com/topographos>

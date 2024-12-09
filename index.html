@@ -37,28 +37,6 @@
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
-  
-  .slide {
-  font-size: 24pt;      /* size */
-}
-
-
-.reveal section h2 {
-  color: #72006c;
-  font-size: 50px;
-}
-
-#title-slide .title {
-text-align: center;
-color:  #72006c;
-  font-size: 40px
-}
-
-#title-slide .quarto-title-author {
-text-align: center;
-color: #464a53;
-  font-size: 30px;
-}
 
   .callout {
     margin-top: 1em;
@@ -378,13 +356,28 @@ Michal Michalski, Dan Lawrence
 <h2>Background</h2>
 
 <img data-src="figures/dispersal.png" class="r-stretch quarto-figure-center"></section>
+<section id="background-1" class="slide level2">
+<h2>Background</h2>
+<p>Explanatory frameworks proposed so far:</p>
+<ul>
+<li>shift from network to a territorial empire (Liverani, 1988)</li>
+<li>administrative restructuring and institutional colonisation (Wilkinson, 2000; T J Wilkinson et al., 2005)</li>
+<li>creation of a landscape of power (Morandi Bonacossi, 1996)</li>
+<li><em>agricultural colonisation</em> (Parker, 2001)</li>
+<li>change in land ownership (Casana, 2007)</li>
+<li><em>universalism</em> and population dynamics (Altaweel and Squitieri, 2018)</li>
+</ul>
+</section>
 <section id="objective" class="slide level2">
 <h2>Objective</h2>
-<p>The ultimate aim of my PhD research is to investigate emergence of <em>“landscape of dispersal”</em> across the region. In this presentation I will:</p>
-<ol type="1">
-<li><p>attempt to describe the <strong>pattern</strong> of change quantitatively using centralization indices.</p></li>
-<li><p>explore potential of Ideal Free Distribution models to understand the <strong>process.</strong></p></li>
-</ol>
+<p>My PhD research aims to provide metrics and quantify the emergence of <em>“landscape of dispersal”</em> across the Northern Fertile Crescent.</p>
+<p>I argue that timing, sequence and magnitude of the change is pertinent to correlate the transformation in landscape with empires.</p>
+<p>&nbsp;</p>
+<p>In this presentation I will:</p>
+<ul>
+<li><p>present Exploratory Data Analysis of the settlement <strong>pattern</strong> deploying quantitative metrics of centralization.</p></li>
+<li><p>apply Ideal Free Distribution model to understand the <strong>process</strong> behind the settlement pattern.</p></li>
+</ul>
 </section>
 <section id="chronology" class="slide level2">
 <h2>Chronology</h2>
@@ -392,14 +385,15 @@ Michal Michalski, Dan Lawrence
 <img data-src="figures/chronology.png" class="r-stretch quarto-figure-center"></section>
 <section id="study-area" class="slide level2">
 <h2>Study Area</h2>
+<p>East-West transect across Northern Mesopotamian plains.</p>
 
-<img data-src="figures/study_area.png" class="r-stretch quarto-figure-center"><p class="caption">Northern Mesopotamia</p></section>
+<img data-src="figures/study_area.png" class="r-stretch quarto-figure-center"><p class="caption">Northern Mesopotamia (n = 396 sites)</p></section>
 <section id="unit-of-analysis" class="slide level2">
 <h2>Unit of Analysis</h2>
 
 <img data-src="figures/units_of_analysis.png" class="r-stretch quarto-figure-center"><p class="caption">Sequence of Snapshots: <em>Si</em> represents settlement system state at particular time <em>Ti.</em></p></section>
-<section id="methods-settlement-patterns" class="slide level2">
-<h2>Methods: Settlement Patterns</h2>
+<section id="methods-settlement-system" class="slide level2">
+<h2>Methods: Settlement System</h2>
 
 <img data-src="figures/method_framework.png" class="r-stretch quarto-figure-center"></section>
 <section id="methods-aoristic-analysis" class="slide level2">
@@ -409,7 +403,7 @@ Michal Michalski, Dan Lawrence
 <section id="methods-rank-size-and-a-coefficient" class="slide level2">
 <h2>Methods: Rank-Size and A Coefficient</h2>
 
-<img data-src="figures/method_zipf.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="figures/method_a_coefficent.png" class="r-stretch quarto-figure-center"></section>
 <section id="methods-centralization-and-b-coefficient" class="slide level2">
 <h2>Methods: Centralization and B Coefficient</h2>
 
@@ -437,27 +431,23 @@ Michal Michalski, Dan Lawrence
 <section id="example-njs-at-2550-bce-1" class="slide level2">
 <h2>Example: NJS at 2550 BCE</h2>
 
-<img data-src="figures/njs/centr_plot_2550BCE.png" class="r-stretch"></section>
+<img data-src="figures/njs/njs_cntr_plot2550BCE.png" class="r-stretch"></section>
 <section id="example-njs-at-900-bce-1" class="slide level2">
 <h2>Example: NJS at 900 BCE</h2>
 
-<img data-src="figures/njs/centrplot_900BCE.png" class="r-stretch"></section>
-<section id="results-aoristic-analysis" class="slide level2">
-<h2>Results: Aoristic Analysis</h2>
-
-<img data-src="figures/aoristic_count.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="figures/njs/njs_cntr_plot900BCE.png" class="r-stretch"></section>
 <section id="results-site-density" class="slide level2">
 <h2>Results: Site Density</h2>
 
-<img data-src="figures/density.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="figures/site_density.png" class="r-stretch quarto-figure-center"></section>
 <section id="results-density-cluster" class="slide level2">
 <h2>Results: Density Cluster</h2>
 
 <img data-src="figures/density_cluster.png" class="r-stretch quarto-figure-center"></section>
 <section id="results-a-coefficient" class="slide level2">
 <h2>Results: A coefficient</h2>
-
-<img data-src="figures/alpha.png" class="r-stretch quarto-figure-center"></section>
+<p><img data-src="figures/alpha.png">{fig-align=“center”, height = “50%”}</p>
+</section>
 <section id="results-a-coefficient-cluster" class="slide level2">
 <h2>Results: A coefficient Cluster</h2>
 
@@ -465,7 +455,7 @@ Michal Michalski, Dan Lawrence
 <section id="results-beta-coefficient" class="slide level2">
 <h2>Results: Beta coefficient</h2>
 
-<img data-src="figures/beta.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="figures/beta.png" class="r-stretch quarto-figure-center"><p class="caption">*Modifiable areal unit problem</p></section>
 <section id="results-b-coefficient" class="slide level2">
 <h2>Results: B coefficient</h2>
 
@@ -473,43 +463,105 @@ Michal Michalski, Dan Lawrence
 <section id="methods-settlement-ecology" class="slide level2">
 <h2>Methods: Settlement Ecology</h2>
 <p><strong>Human Behavioral Ecology – Ideal Distribution Models</strong></p>
-<p>• <strong>Ideal Free Distribution</strong> (IFD) – makes assumption of unconstrained movement into habitats of highest suitability that will decline with rising population density.</p>
-<p>• <strong>Ideal Free Distribution with Allee effect (IFDA)</strong> – incentivize cooperation and investments in landscape (e.g.&nbsp;irrigation) to increase habitats suitability but in time population pressure is leading to degradation and habitat depletion .</p>
-<p>• <strong>Ideal Despotic Distribution (IDD)</strong> – the access to habitats of individuals is controlled by other settlers. <strong>IDD negative</strong> – despots defended access to high ranked habitats forcing settlers to occupy habitats with lower rank. <strong>IDD positive</strong> - despots allow to occupy their high ranked habitats in return for share in harvest (e.g.serfdom dynamics)</p>
+<p>The fundamental premise of the model is that individuals seek to maximize suitability such as subsistence yields.</p>
+<p>• Ideal Free Distribution (IFD)</p>
+<p>• Ideal Free Distribution with Allee effect (IFDA)</p>
+<p>• Ideal Despotic Distribution (IDD)</p>
+<p>&nbsp;</p>
+<p><strong>Question:</strong> Do the settlement patterns show properties predicted by the IFD model?</p>
 </section>
 <section id="methods-ifd" class="slide level2">
 <h2>Methods: IFD</h2>
 
-<img data-src="figures/method_ifd_free.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="figures/method_ifd_free.png" class="r-stretch quarto-figure-center"><p>IFD makes assumption of unconstrained movement into habitats of highest suitability that will decline with rising population density.</p>
+</section>
 <section id="methods-ifda" class="slide level2">
 <h2>Methods: IFDA</h2>
 
-<img data-src="figures/method_ifd_allee.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="figures/method_ifd_allee.png" class="r-stretch quarto-figure-center"><p>IFDA incentivize cooperation and investments in landscape to increase habitats suitability but in time population pressure is leading to degradation and habitat depletion .</p>
+</section>
 <section id="methods-idd" class="slide level2">
 <h2>Methods: IDD</h2>
 
-<img data-src="figures/method_ifd_despotic.png" class="r-stretch quarto-figure-center"></section>
-<section id="methods-suitability-index" class="slide level2">
-<h2>Methods: Suitability Index</h2>
+<img data-src="figures/method_ifd_despotic.png" class="r-stretch quarto-figure-center"><p>The access to habitats of individuals is controlled by other settlers. <strong>IDD negative</strong> – despots defended access to high ranked habitats forcing settlers to occupy habitats with lower rank. <strong>IDD positive</strong> - despots allow to occupy their high ranked habitats in return for share in harvest.</p>
+</section>
+<section id="suitability-index" class="slide level2">
+<h2>Suitability Index</h2>
 
-<img data-src="figures/method_suitability.png" class="r-stretch quarto-figure-center"><p class="caption">*Menze and Ur (2012) showed correlation between settlements volume / density and reiver size in Upper Khabur Basin.</p></section>
-<section id="results-model-prediction" class="slide level2">
-<h2>Results: Model Prediction</h2>
-<p>The first habitats settled will be the most suitable.</p>
+<img data-src="figures/method_suitability.png" class="r-stretch quarto-figure-center"><p class="caption">*Menze and Ur (2012) showed correlation between settlements volume / density and river size in Upper Khabur Basin.</p></section>
+<section id="model-predictions" class="slide level2">
+<h2>Model Predictions</h2>
+<p>IFD and IDD</p>
+<ul>
+<li><p>The first habitats settled will be the most suitable.</p></li>
+<li><p>The most suitable habitats will be occupied longest.</p></li>
+<li><p>The average suitability of a settlement pattern should decrease as sites increase in number.</p></li>
+</ul>
+<p>IDD</p>
+<ul>
+<li>The population density in IDD at the higher ranked habitats is lower than in the IFD (IDD vs IFD dynamics)</li>
+</ul>
+</section>
+<section id="results" class="slide level2">
+<h2>Results</h2>
+<ol type="1">
+<li>The first habitats settled will be the most suitable.</li>
+</ol>
 
-<img data-src="figures/suitability_over_time.png" class="r-stretch quarto-figure-center"></section>
-<section id="results-model-prediction-1" class="slide level2">
-<h2>Results: Model Prediction</h2>
-<p>The first habitats settled will be the most suitable.</p>
+<img data-src="figures/idf_suitability_over_time_50y.png" class="r-stretch quarto-figure-center"></section>
+<section id="results-1" class="slide level2">
+<h2>Results</h2>
+<ol start="2" type="1">
+<li>The most suitable habitats will be occupied longest.</li>
+</ol>
 
-<img data-src="figures/suitability_by_survey.png" class="r-stretch quarto-figure-center"></section>
-<section id="results-model-prediction-2" class="slide level2">
-<h2>Results: Model Prediction</h2>
-<p>The average suitability of a settlement pattern should decrease as sites increase in number.</p>
+<img data-src="figures/idf_persistance.png" class="r-stretch quarto-figure-center"></section>
+<section id="results-2" class="slide level2">
+<h2>Results</h2>
+<ol start="3" type="1">
+<li>The average suitability of a settlement pattern should decrease as sites increase in number.</li>
+</ol>
 
-<img data-src="figures/lm_site_count.png" class="r-stretch quarto-figure-center"></section>
-<section id="discussion" class="slide level2">
-<h2>Discussion</h2>
+<img data-src="figures/idf_suit_vs_site_number.png" class="r-stretch quarto-figure-center"></section>
+<section id="results-3" class="slide level2">
+<h2>Results</h2>
+<ol start="4" type="1">
+<li>The population density in IDD at the higher ranked habitats is lower than in the IFD (IDD vs IFD dynamics)</li>
+</ol>
+
+<img data-src="figures/ifd_vs_idd.png" class="r-stretch quarto-figure-center"><p class="caption">* not fully tested, requires further work</p></section>
+<section id="conclusions---same-old" class="slide level2">
+<h2>Conclusions - same old</h2>
+<ul>
+<li><p>settlements dispersion coincided with Middle Assyrian (1400BC) and Neo-Assyrian (900BC) expansions</p></li>
+<li><p>areas in proximity to Assyrian imperial core experience (NJS, THS) seen increase at higher rate comparing to more modest growth in western Khabur (TBS) and the eastern Navkūr plain (UZGAR)</p></li>
+<li><p>LCP area was dominated by site of Charchemish until population disperse in Hellenistic period (300BC)</p></li>
+</ul>
+</section>
+<section id="conclusions---same-new" class="slide level2">
+<h2>Conclusions - same new</h2>
+<ul>
+<li><p>results show a general conformity with IFD models</p></li>
+<li><p>settlement strategies seek to maximize agricultural input (as far as access to water is concerned)</p></li>
+<li><p>larger increase in settlement density accompanied by faster drop in suitability around 900 BC may IDD properties whereas more sustainable growth may indicate IFD distribution.</p></li>
+</ul>
+</section>
+<section id="further-work" class="slide level2">
+<h2>Further work</h2>
+<ul>
+<li><p>to integrate more legacy archaeological surveys</p></li>
+<li><p>to evaluate centralization metrics</p></li>
+<li><p>model Allee effect by integrating hydraulic infrastructure</p></li>
+<li><p>integrate more ecological and social variables</p></li>
+<li><p>operationalize distinction between various IDM variants</p></li>
+</ul>
+</section>
+<section id="thank-you" class="slide level2">
+<h2>Thank you</h2>
+<p>&nbsp;</p>
+<p>Michal Michalski</p>
+<p>michal.m.michalski@durham.ac.uk</p>
+<p><a href="https://github.com/topographos" class="uri">https://github.com/topographos</a></p>
 
 <img src="figures/logo-dark.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
