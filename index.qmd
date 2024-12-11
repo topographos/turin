@@ -20,7 +20,7 @@ editor: visual
 -   Units of Analysis
 -   Methods
 -   Results
--   Conclusion
+-   Conclusions
 
 ## Background
 
@@ -28,7 +28,7 @@ editor: visual
 
 ## Background
 
-Explanatory frameworks proposed so far:
+explanation?
 
 -   shift from network to a territorial empire (Liverani, 1988)
 -   administrative restructuring and institutional colonisation (Wilkinson, 2000; T J Wilkinson et al., 2005)
@@ -36,16 +36,19 @@ Explanatory frameworks proposed so far:
 -   *agricultural colonisation* (Parker, 2001)
 -   change in land ownership (Casana, 2007)
 -   *universalism* and population dynamics (Altaweel and Squitieri, 2018)
+-  part of imperial repertoires (Düring, 2020)
 
 ## Objective
 
-My PhD research aims to provide metrics and quantify the emergence of *"landscape of dispersal"* across the Northern Fertile Crescent.
+ 
+
+Overall,my research goal is to investigate and quantify the *"landscape of dispersal"* across the Northern Fertile Crescent.
 
 I argue that timing, sequence and magnitude of the change is pertinent to correlate the transformation in landscape with empires.
 
  
 
-In this presentation I will:
+Today, I will:
 
 -   present Exploratory Data Analysis of the settlement **pattern** deploying quantitative metrics of centralization.
 
@@ -143,6 +146,8 @@ East-West transect across Northern Mesopotamian plains.
 
 The fundamental premise of the model is that individuals seek to maximize suitability such as subsistence yields.
 
+**variants**:
+
 • Ideal Free Distribution (IFD)
 
 • Ideal Free Distribution with Allee effect (IFDA)
@@ -173,11 +178,11 @@ The access to habitats of individuals is controlled by other settlers. **IDD neg
 
 ## Suitability Index
 
-![\*Menze and Ur (2012) showed correlation between settlements volume / density and river size in Upper Khabur Basin.](figures/method_suitability.png){fig-align="center"}
+![\*Menze and Ur (2012) showed correlation between settlements volume / density and river size in Upper Khabur Basin.Data: hydrograph90m](figures/method_suitability.png){fig-align="center"}
 
 ## Model Predictions
 
-IFD and IDD
+**IFD and IDD**
 
 -   The first habitats settled will be the most suitable.
 
@@ -185,7 +190,7 @@ IFD and IDD
 
 -   The average suitability of a settlement pattern should decrease as sites increase in number.
 
-IDD
+**IDD**
 
 -   The population density in IDD at the higher ranked habitats is lower than in the IFD (IDD vs IFD dynamics)
 
@@ -217,7 +222,7 @@ IDD
 
 -   settlements dispersion coincided with Middle Assyrian (1400BC) and Neo-Assyrian (900BC) expansions
 
--   areas in proximity to Assyrian imperial core experience (NJS, THS) seen increase at higher rate comparing to more modest growth in western Khabur (TBS) and the eastern Navkūr plain (UZGAR)
+-   areas  (NJS, THS) in proximity to Assyrian imperial core experienced increase at higher rate comparing to more modest growth in western Khabur (TBS) and the eastern Navkūr plain (UZGAR)
 
 -   LCP area was dominated by site of Charchemish until population disperse in Hellenistic period (300BC)
 
@@ -225,19 +230,19 @@ IDD
 
 -   results show a general conformity with IFD models
 
--   settlement strategies seek to maximize agricultural input (as far as access to water is concerned)
+-   settlement strategies sought to maximize agricultural input (as far as access to water is concerned)
 
--   larger increase in settlement density accompanied by faster drop in suitability around 900 BC may IDD properties whereas more sustainable growth may indicate IFD distribution.
+-   larger increase in settlement density accompanied by faster drop in suitability around 900 BC shows IDD model properties whereas more sustainable growth may indicate IFD model distribution.
 
 ## Further work
 
--   to integrate more legacy archaeological surveys
+-   to integrate more archaeological surveys
 
 -   to evaluate centralization metrics
 
--   model Allee effect by integrating hydraulic infrastructure
+-   model Allee effect by integrating irrigation systems
 
--   integrate more ecological and social variables
+-   expand on ecological and social variables
 
 -   operationalize distinction between various IDM variants
 
