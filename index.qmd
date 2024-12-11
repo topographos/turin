@@ -234,7 +234,7 @@ The access to habitats of individuals is controlled by other settlers. **IDD neg
 
 -   larger increase in settlement density accompanied by faster drop in suitability around 900 BC shows IDD model properties whereas more sustainable growth may indicate IFD model distribution.
 
-## Further work
+## Discussion / Further work
 
 -   to integrate more archaeological surveys
 
