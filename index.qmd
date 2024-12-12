@@ -9,6 +9,7 @@ format:
     slide-number: c/t
     css: ["style.scss"]
     theme: simple
+  #pdf: default
 editor: visual
 ---
 
@@ -126,7 +127,7 @@ East-West transect across Northern Mesopotamian plains.
 
 ## Results: A coefficient
 
-![](figures/alpha.png){fig-align="center", height = "50%"}
+![](figures/alpha.png){fig-align="center"}
 
 ## Results: A coefficient Cluster
 
@@ -134,7 +135,7 @@ East-West transect across Northern Mesopotamian plains.
 
 ## Results: Beta coefficient
 
-![\*Modifiable areal unit problem](figures/beta.png){fig-align="center"}
+![\*Modifiable Areal Unit Problem](figures/beta.png){fig-align="center"}
 
 ## Results: B coefficient
 
